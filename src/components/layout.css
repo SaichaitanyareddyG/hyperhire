@@ -1,0 +1,54 @@
+/* src/components/Layout.css */
+.custom-dropdown {
+  .custom-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 9l-7 7-7-7"></path></svg>') no-repeat right 0.75rem center;
+    background-size: 1.5em;
+  }
+  }
+  
+  .custom-dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #ffffff;
+  }
+  
+  .custom-dropdown select option {
+    background: #ffffff;
+    color: #344054;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+  }
+
+  /* src/components/card.css */
+.card {
+    width: 150px;
+    height: 408px;
+    padding-top: 36px;
+    gap: 36px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 24px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+  }
